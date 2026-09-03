@@ -43,7 +43,7 @@ The workflow progresses from data cleaning to a production-style tuned pipeline:
 ## 1) Data Cleaning & Exploratory Analysis
 `Cleaning.ipynb`
 - Dropped high-missing / non-predictive columns: `Cabin`, `Ticket`, `Name`, `PassengerId`
-- Imputed missing `Age` with the mean and missing `Embarked` with the mode (`'S'`)
+- Imputed missing `Age` with the median and missing `Embarked` with the mode (`'S'`)
 - Removed outlier records with unusually high `SibSp` / `Parch` values
 - Renamed `Sex` → `Gender` for clarity
 - Visualized survival rate by fare group, gender, passenger class, embarkation port, age group, and family size
