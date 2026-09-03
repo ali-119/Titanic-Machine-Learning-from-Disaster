@@ -190,6 +190,7 @@ The final tuned Decision Tree pipeline outperformed every individually-tuned bas
 - `Cabin` was dropped entirely instead of extracting a partial-availability or deck feature
 - No formal cross-validation grid search is documented for every baseline model; results reflect each notebook's best found configuration
 - Random Forest and Gradient Boosting results are not directly comparable to the others due to a different evaluation split
+- Various methods were employed—ranging from outlier removal to splitting the data into training and testing sets—and while the results varied significantly, the best outcome is contained in the file labeled {final model}.
 
 ------
 
